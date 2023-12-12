@@ -9,7 +9,28 @@
     />
     <link rel="icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A/Pz8APr6+gP8/PwA////AP///wD///8A+vr6A/z8/AD///8A////AP///wD///8A////AP///wD///8A////AObm5heKiopy4uLiHP///wD///8A8PDwDnh4eIbo6OgV////AP///wD///8A////AP///wD///8A////AP///wD///8AuLi4RZqammPe3t4f3t7eH6ysrFJsbGyR////AP///wD///8A////AP///wD///8A////AP///wD///8A////APz8/ABYWFimqqqqVKysrFI0NDTJ3NzcIf///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8ApqamV9DQ0C/e3t4fYmJim////wD///8A////AP///wD///8A////AP///wD///8A+vr6A/Ly8gzw8PAM9vb2B/b29geIiIh1fn5+gczMzDL///8A////AP///wD///8A////AP///wD///8A6urqFHZ2doiEhIR5oKCgXZqammT09PQKnJycY1xcXKH8/PwA////AP///wD///8A////AP///wD///8A+vr6A2pqapTOzs4v////AP///wD///8A/Pz8Ae7u7g/CwsI6////AP///wD///8A////AP///wD///8A////AObm5hd2dnaI////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wDe3t4fgoKCfP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A+Pj4BVxcXKH29vYH////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wCwsLBNjIyMcezs7BH09PQK7OzsEvT09An///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////ANTU1CmkpKRarq6uULi4uEb6+voD////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A//8AAP//AAD/9wAA//cAAP9vAAD/7wAA/98AAPffAADv/wAA7/8AAP//AADv/wAA//8AAP//AAD//wAA//8AAA==" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // This script checks to see if a redirect is present in the query string,
+      // converts it back into the correct url and adds it to the
+      // browser's history using window.history.replaceState(...),
+      // which won't cause the browser to attempt to load the new url.
+      // When the single page app is loaded further down in this file,
+      // the correct url will be waiting in the browser's history for
+      // the single page app to route accordingly.
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
     <!-- Google tag (gtag.js) -->
     <script
       async
